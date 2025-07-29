@@ -1,137 +1,155 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ganjina Farm | Asosiy sahifa</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-    }
-    .hero {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://source.unsplash.com/1600x700/?pharmacy') center/cover no-repeat;
-      color: white;
-      padding: 100px 0;
-      text-align: center;
-    }
-    .product-card img {
-      height: 200px;
-      object-fit: cover;
-    }
-    footer {
-      background-color: #212529;
-      color: white;
-      padding: 20px 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GanjinaFarm – Tabiiy Dorilar Ishlab Chiqaruvchi MCHJ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="#">GanjinaFarm</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navMenu">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link active" href="#">Asosiy</a></li>
-        <li class="nav-item"><a class="nav-link" href="#products">Mahsulotlar</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">Biz haqimizda</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Aloqa</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- Hero section -->
-<section class="hero">
-  <div class="container">
-    <h1 class="display-4 fw-bold">Ganjina Farm — Sog‘ligingiz kafolati</h1>
-    <p class="lead mt-3">Tabiiy va sifatli farmatsevtika mahsulotlari bilan sog‘ligingizni mustahkamlang</p>
-    <a href="#products" class="btn btn-success btn-lg mt-4">Mahsulotlarimizni ko‘rish</a>
-  </div>
-</section>
-
-<!-- Products -->
-<section id="products" class="py-5">
-  <div class="container">
-    <h2 class="text-center mb-4">Bizning Mahsulotlar</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card product-card">
-          <img src="https://source.unsplash.com/400x300/?herbal,medicine" class="card-img-top" alt="Product 1">
-          <div class="card-body">
-            <h5 class="card-title">Bronxo Tabiiy Ozuqa</h5>
-            <p class="card-text">Nafas yo'llari uchun tabiiy ozuqa. Oson nafas olishga yordam beradi.</p>
-          </div>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">GanjinaFarm</a>
+                </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Bosh Sahifa</a></li>
+                    <li><a href="about.html">Biz Haqimizda</a></li>
+                    <li><a href="products.html">Mahsulotlar</a></li>
+                    <li><a href="contact.html">Aloqa</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Menu Toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card product-card">
-          <img src="https://source.unsplash.com/400x300/?vitamin,health" class="card-img-top" alt="Product 2">
-          <div class="card-body">
-            <h5 class="card-title">Immuno Plus</h5>
-            <p class="card-text">Immunitetni ko‘taruvchi kuchli formulali qo‘shimcha.</p>
-          </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Tabiatdan Sog'lik, GanjinaFarm bilan!</h1>
+                <p>Bizning tabiiy dori vositalarimiz bilan salomatligingizni mustahkamlang.</p>
+                <a href="products.html" class="btn btn-primary">Mahsulotlarimizni Ko'rish</a>
+            </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card product-card">
-          <img src="https://source.unsplash.com/400x300/?natural,remedy" class="card-img-top" alt="Product 3">
-          <div class="card-body">
-            <h5 class="card-title">Detox Tea</h5>
-            <p class="card-text">Organizmdan zararli moddalarni chiqarish uchun tabiiy choy aralashmasi.</p>
-          </div>
+    </section>
+
+    <section class="about-intro section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>GanjinaFarm Haqida</h2>
+                <p>Biz sog'lom kelajak uchun tabiiy yechimlarni taklif etamiz.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-item">
+                    <i class="fas fa-leaf icon-large"></i>
+                    <h3>Tabiiy Tarkib</h3>
+                    <p>Mahsulotlarimiz eng sara tabiiy ingredientlardan tayyorlanadi.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-flask icon-large"></i>
+                    <h3>Ilmiy Yondashuv</h3>
+                    <p>Zamonaviy texnologiyalar va ilmiy tadqiqotlar asosida ishlab chiqaramiz.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-award icon-large"></i>
+                    <h3>Sifat Kafolati</h3>
+                    <p>Xalqaro standartlarga mos, yuqori sifatli mahsulotlarni taklif etamiz.</p>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="about.html" class="btn btn-secondary">Batafsil ma'lumot</a>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- About -->
-<section id="about" class="py-5 bg-light">
-  <div class="container">
-    <h2 class="text-center mb-4">Biz haqimizda</h2>
-    <p class="text-center">"Ganjina Farm" — bu tabiiylik va ishonch uyg‘unligidir. Mahsulotlarimiz tarkibi faqatgina sifatli xomashyolardan tayyorlanadi va zamonaviy texnologiyalar asosida ishlab chiqiladi. Har bir xaridor biz uchun qadrlidir.</p>
-  </div>
-</section>
+    <section class="featured-products section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tanlangan Mahsulotlar</h2>
+                <p>Eng mashhur va samarali mahsulotlarimizni kashf eting.</p>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200?text=Mahsulot+1" alt="Mahsulot Nomi 1">
+                    <h3>GanjinaVit</h3>
+                    <p>Organizm quvvatini oshiruvchi vitaminlar majmuasi.</p>
+                    <a href="products.html#mahsulot1" class="btn btn-sm">Batafsil</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200?text=Mahsulot+2" alt="Mahsulot Nomi 2">
+                    <h3>ImmunoBoost</h3>
+                    <p>Immunitet tizimini mustahkamlovchi tabiiy ekstrakt.</p>
+                    <a href="products.html#mahsulot2" class="btn btn-sm">Batafsil</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200?text=Mahsulot+3" alt="Mahsulot Nomi 3">
+                    <h3>HerbalCalm</h3>
+                    <p>Asab tizimini tinchlantiruvchi o'simlik choyi.</p>
+                    <a href="products.html#mahsulot3" class="btn btn-sm">Batafsil</a>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="products.html" class="btn btn-primary">Barcha mahsulotlarni ko'rish</a>
+            </div>
+        </div>
+    </section>
 
-<!-- Contact -->
-<section id="contact" class="py-5">
-  <div class="container">
-    <h2 class="text-center mb-4">Biz bilan bog‘laning</h2>
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <form>
-          <div class="mb-3">
-            <label class="form-label">Ismingiz</label>
-            <input type="text" class="form-control" placeholder="Ismingizni kiriting">
-          </div>
-          <div class="mb-3">
-            <label class="form-label">Email manzilingiz</label>
-            <input type="email" class="form-control" placeholder="Email manzilingizni kiriting">
-          </div>
-          <div class="mb-3">
-            <label class="form-label">Xabar</label>
-            <textarea class="form-control" rows="4" placeholder="Xabaringizni yozing"></textarea>
-          </div>
-          <button type="submit" class="btn btn-success">Yuborish</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
+    <section class="cta-section section-padding">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Savollaringiz bormi?</h2>
+                <p>Biz bilan bog'laning va mutaxassislarimiz yordam berishadi.</p>
+                <a href="contact.html" class="btn btn-light-outline">Biz bilan bog'lanish</a>
+            </div>
+        </div>
+    </section>
 
-<!-- Footer -->
-<footer class="text-center">
-  <div class="container">
-    <p class="mb-0">© 2025 GanjinaFarm. Barcha huquqlar himoyalangan.</p>
-  </div>
-</footer>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col about-col">
+                    <h3>GanjinaFarm</h3>
+                    <p>Tabiiylik va sifatga asoslangan dori vositalari. Sog'ligingiz biz uchun muhim!</p>
+                </div>
+                <div class="footer-col links-col">
+                    <h3>Tezkor Havolalar</h3>
+                    <ul>
+                        <li><a href="index.html">Bosh Sahifa</a></li>
+                        <li><a href="about.html">Biz Haqimizda</a></li>
+                        <li><a href="products.html">Mahsulotlar</a></li>
+                        <li><a href="contact.html">Aloqa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col contact-info-col">
+                    <h3>Aloqa</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Toshkent sh., Mirzo Ulug'bek tum., Mustaqillik ko'ch., 1-uy</p>
+                    <p><i class="fas fa-phone"></i> +998 (XX) XXX-XX-XX</p>
+                    <p><i class="fas fa-envelope"></i> info@ganjinafarm.uz</p>
+                </div>
+                <div class="footer-col social-col">
+                    <h3>Bizni kuzating</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GanjinaFarm MCHJ. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </div>
+    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
